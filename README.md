@@ -34,32 +34,13 @@ Install JDK 11+
 Install Apache Tomcat 10.26
 Install MySQL
 Install Maven
-📥 Steps to Set Up
-Clone the Repository
 
-sh
-Copy
-Edit
-git clone https://github.com/your-username/flight-booking-app.git
-cd flight-booking-app
-Import into Eclipse/IntelliJ
-
-Open Eclipse/IntelliJ IDEA
-Import as a Maven Project
 Configure Database
 
 Create a MySQL Database
 Import schema.sql (if available)
 Update db.properties in the project
 Build & Deploy
-
-sh
-Copy
-Edit
-mvn clean install
-Deploy on Apache Tomcat
-Start the server
-Access the Application
 
 Customer Portal: http://localhost:8080/FlightBookingApp/
 Admin Panel: http://localhost:8080/FlightBookingApp/admin
